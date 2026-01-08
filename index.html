@@ -3,66 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Dashboard</title>
+    <title>Flower Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <aside>
-            <div class="top">
-                <div class="logo">
-                    <img src="images/gua.jpg" alt="">
-                    <h2>NEK <span class="danger">LE</span></h2>
-                </div>
-                <div class="close" id="close-btn">
-                    <span class="material-symbols-outlined">close</span>
-                </div>
-            </div>
-            <div class="sidebar">
-                <a href="#">
-                    <span class="material-symbols-outlined">dashboard</span>
-                    <h3>Dashboard</h3>
-                </a>
-                <a href="#"  class="active">
-                    <span class="material-symbols-outlined">person</span>
-                    <h3>Customers</h3>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">receipt_long</span>
-                    <h3>Orders</h3>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">insights</span>
-                    <h3>Analytics</h3>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">mail_outline</span>
-                    <h3>Messages</h3>
-                    <span class="messages-count">26</span>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">inventory</span>
-                    <h3>Products</h3>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">report_gmailerrorred</span>
-                    <h3>Reports</h3>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">settings</span>
-                    <h3>Settings</h3>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">add</span>
-                    <h3>Add Product</h3>
-                </a>
-                <a href="#">
-                    <span class="material-symbols-outlined">logout</span>
-                    <h3>Log Out</h3>
-                </a>
-            </div>
-        </aside>
-    </div>
+    <header>
+        <input type="checkbox" name="" id="toggler">
+        <label for="toggler" class="fas fa-bars"></label>
+        <a href="#" class="logo"> flower <span>.</span></a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#products">products</a>
+            <a href="#review">featurs</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    </header>
 </body>
 </html>
